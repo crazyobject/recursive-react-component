@@ -1,2 +1,3 @@
 # recursive-react-component
-react component calling itself recursively to display folder file structure like file explorer. Recursion in react
+
+When a React component repeatedly renders inside itself with different props until a base condition is met, it's called a recursive component.
