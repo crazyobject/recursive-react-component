@@ -88,11 +88,11 @@ const directoryMeta = [
 
 export default function App() {
   return (
-    <>
+    <div style={{width:"50%"}}>
       <h2>Project Explorer</h2>
       <h4>When a React component repeatedly renders inside itself with different props until a base condition is met, it's called a recursive component.</h4>
       <hr />
       <ShowFilesInDirectory directoryMeta={directoryMeta} />
-    </>
+    </div>
   );
 }

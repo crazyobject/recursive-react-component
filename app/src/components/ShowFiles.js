@@ -1,7 +1,9 @@
 import React from "react";
+import "./ShowFiles.css"
 
 const ShowFiles = (props) => {
   const { files, margin, dirName } = props;
+  const [show,setShow] = React.useState(true);
 
   const filesDom = files.map((file) => {
     return (
@@ -10,10 +12,10 @@ const ShowFiles = (props) => {
   });
   return (
     <>
-      <div style={{ marginLeft: `${margin}px`, fontWeight: 'bold' }}>
+      <div style={{ marginLeft: `${margin}px` }} className="dirTitle" onClick={()=>{setShow(!show)}}>
         {dirName}
       </div>
-      {filesDom}
+      { show && filesDom}
     </>
   );
 };

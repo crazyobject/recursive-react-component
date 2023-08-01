@@ -1,0 +1,9 @@
+.dirTitle{
+    font-weight: bold;
+    cursor:pointer;
+}
+.dirTitle:hover{
+    font-weight: bold;
+    cursor:pointer;
+    background-color: yellow;
+}
