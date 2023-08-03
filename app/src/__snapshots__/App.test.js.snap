@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterDate app should match the snappshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        style="width: 50%;"
+      >
+        <h2>
+          Project Explorer
+        </h2>
+        <h4>
+          When a React component repeatedly renders inside itself with different props until a base condition is met, it's called a recursive component.
+        </h4>
+        <hr />
+        <div>
+          <div
+            class="dirTitle"
+            style="margin-left: 10px;"
+          >
+            public
+          </div>
+          <div
+            style="margin-left: 20px;"
+          >
+            index.html
+          </div>
+          <div
+            style="margin-left: 20px;"
+          >
+            index.css
+          </div>
+          <div
+            style="margin-left: 20px;"
+          >
+            index.js
+          </div>
+          <div
+            class="dirTitle"
+            style="margin-left: 10px;"
+          >
+            styles
+          </div>
+          <div
+            style="margin-left: 20px;"
+          >
+            app.css
+          </div>
+          <div
+            style="margin-left: 20px;"
+          >
+            index.css
+          </div>
+          <div
+            class="dirTitle"
+            style="margin-left: 10px;"
+          >
+            src
+          </div>
+          <div
+            style="margin-left: 20px;"
+          >
+            index.js
+          </div>
+          <div>
+            <div
+              class="dirTitle"
+              style="margin-left: 40px;"
+            >
+              employeeComponent
+            </div>
+            <div
+              style="margin-left: 50px;"
+            >
+              employeeComponent.js
+            </div>
+            <div
+              style="margin-left: 50px;"
+            >
+              employeeComponent.css
+            </div>
+            <div>
+              <div
+                class="dirTitle"
+                style="margin-left: 70px;"
+              >
+                empAvatar
+              </div>
+              <div
+                style="margin-left: 80px;"
+              >
+                empAvatar.js
+              </div>
+              <div
+                style="margin-left: 80px;"
+              >
+                empAvatar.css
+              </div>
+            </div>
+            <div
+              class="dirTitle"
+              style="margin-left: 40px;"
+            >
+              CompanyComponent
+            </div>
+            <div
+              style="margin-left: 50px;"
+            >
+              CompanyComponent.js
+            </div>
+            <div
+              style="margin-left: 50px;"
+            >
+              CompanyComponent.css
+            </div>
+          </div>
+          <div
+            class="dirTitle"
+            style="margin-left: 10px;"
+          >
+            Util
+          </div>
+          <div
+            style="margin-left: 20px;"
+          >
+            dateHelper.js
+          </div>
+          <div
+            style="margin-left: 20px;"
+          >
+            printHelper.js
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 50%;"
+    >
+      <h2>
+        Project Explorer
+      </h2>
+      <h4>
+        When a React component repeatedly renders inside itself with different props until a base condition is met, it's called a recursive component.
+      </h4>
+      <hr />
+      <div>
+        <div
+          class="dirTitle"
+          style="margin-left: 10px;"
+        >
+          public
+        </div>
+        <div
+          style="margin-left: 20px;"
+        >
+          index.html
+        </div>
+        <div
+          style="margin-left: 20px;"
+        >
+          index.css
+        </div>
+        <div
+          style="margin-left: 20px;"
+        >
+          index.js
+        </div>
+        <div
+          class="dirTitle"
+          style="margin-left: 10px;"
+        >
+          styles
+        </div>
+        <div
+          style="margin-left: 20px;"
+        >
+          app.css
+        </div>
+        <div
+          style="margin-left: 20px;"
+        >
+          index.css
+        </div>
+        <div
+          class="dirTitle"
+          style="margin-left: 10px;"
+        >
+          src
+        </div>
+        <div
+          style="margin-left: 20px;"
+        >
+          index.js
+        </div>
+        <div>
+          <div
+            class="dirTitle"
+            style="margin-left: 40px;"
+          >
+            employeeComponent
+          </div>
+          <div
+            style="margin-left: 50px;"
+          >
+            employeeComponent.js
+          </div>
+          <div
+            style="margin-left: 50px;"
+          >
+            employeeComponent.css
+          </div>
+          <div>
+            <div
+              class="dirTitle"
+              style="margin-left: 70px;"
+            >
+              empAvatar
+            </div>
+            <div
+              style="margin-left: 80px;"
+            >
+              empAvatar.js
+            </div>
+            <div
+              style="margin-left: 80px;"
+            >
+              empAvatar.css
+            </div>
+          </div>
+          <div
+            class="dirTitle"
+            style="margin-left: 40px;"
+          >
+            CompanyComponent
+          </div>
+          <div
+            style="margin-left: 50px;"
+          >
+            CompanyComponent.js
+          </div>
+          <div
+            style="margin-left: 50px;"
+          >
+            CompanyComponent.css
+          </div>
+        </div>
+        <div
+          class="dirTitle"
+          style="margin-left: 10px;"
+        >
+          Util
+        </div>
+        <div
+          style="margin-left: 20px;"
+        >
+          dateHelper.js
+        </div>
+        <div
+          style="margin-left: 20px;"
+        >
+          printHelper.js
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,8 +1,17 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+describe("FilterDate", () => {
+
+it('should render app successfully', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  const linkElement = screen.getByText(/Project Explorer/i);
   expect(linkElement).toBeInTheDocument();
+});
+
+it("app should match the snappshot",()=>{
+  const fragment = render(<App/>);
+  expect(fragment).toMatchSnapshot();
+})
+
 });
